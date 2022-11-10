@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="285,105"  mininfo="260,50" maxinfo="260,50" caption="0,0,0,20" bktrans="true"  alpha="220"  gdiplustext="true" textrenderinghint="3"  >
+	<Font name="微软雅黑" size="18" default="true"/> 
+	<Font name="微软雅黑" size="20" /> 
+
+	<VerticalLayout bkcolor="0xffffffff" bordercolor="0xff212421" bordersize="1">
+		<HorizontalLayout height="25" >
+			<Label  text="改变标题"  padding="20,0,0,0" endellipsis="true"  width="215"  font="1"  rhaa="5" />
+			<Button  name="close_btn" padding="18,5,0,0" width="16" height="16"  bkimage="png/btn_close.png"/>
+		</HorizontalLayout>
+		
+		<HorizontalLayout width="260" height="65" bkcolor="0xfff0f0f0" padding="15,0,0,0" bordercolor="0xff212421" bordersize="1">
+			<VerticalLayout padding="15,15,0,0" width="175" height="45">
+				<Text name="unkonw" text="新的标题" height="20"  />
+				<Edit name="new_title_edit" width="170" height="20" bordercolor="0xffa0a0a0" bordersize="1" maxchar="64"/>
+			</VerticalLayout>
+
+			<VerticalLayout width="65" height="45" childpadding="5" padding="0,10,0,0">
+				<Button name="btn_ok" 	  width="65" height="20" text="确定" align="center" bordercolor="0xff6d7174" bordersize="1" borderround="5,5"/>
+				<Button name="btn_cancle" width="65" height="20" text="取消" align="center" bordercolor="0xff6d7174" bordersize="1" borderround="5,5"/>
+			</VerticalLayout>
+		</HorizontalLayout>
+
+	</VerticalLayout>
+
+</Window>

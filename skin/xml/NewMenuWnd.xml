@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="125,125"  mininfo="125,125" maxinfo="125,125" caption="0,0,0,1">
+	<Font name="微软雅黑" size="18" default="true"/> 
+	<Font name="微软雅黑" size="40" /> 
+		 
+
+		<List name="menu_list"  width="122" height="125" borderround="0"  bordersize="0"  header="hidden"   itemhotbkcolor="#FF2690D5" itemdisabledbkcolor="#FFF8F9FB" itemtextpadding="10,0,0,0" itemtextcolor="#FF37393A" itemhottextcolor="#FFEFF8FD" itemselectedtextcolor="#FFEFF8FD"/>
+</Window>

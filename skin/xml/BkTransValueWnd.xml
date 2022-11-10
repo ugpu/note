@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="160,100" caption="0,0,0,5" >
+
+	<ListContainerElement width="40" height="20"  bkcolor="0xffffffff"  >
+		<HorizontalLayout  >
+			<Text name="item_text" text="90%"  width="40" height="20"  align="center" textpadding="0,2,0,0"/>
+		</HorizontalLayout>
+	</ListContainerElement>
+</Window>

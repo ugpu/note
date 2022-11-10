@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="260,50"   caption="0,0,0,20"   gdiplustext="true" textrenderinghint="3" bktrans="true"  >
+	<Font name="微软雅黑" size="18" default="true"/> 
+	<Font name="微软雅黑" size="20" /> 
+
+	<VerticalLayout name="main_layer"  height="50" bkcolor="0xffffff7d" bordersize="1" bordercolor="0xff040404">
+		<TabLayout name="switch_tab" height="50">
+			<VerticalLayout name="sub_layout" height="50">
+				<HorizontalLayout name="move_layer" width="260" height="22" childpadding="5" padding="0,3,0,0">
+					<Label  width="180" height="20" rhaa="5" font="1" name="title_label" endellipsis="true" padding="15,0,0,0" text="未命名" tooltip="未命名"/>
+					
+					<HorizontalLayout width="65" height="16" childpadding="5">
+						<Button name="shrink_btn" bordersize="1" bordercolor="0xff040404"   width="16" height="16" bkimage="png/btn_dock.png"/>
+						<Button name="btn_color"  bordersize="1" bordercolor="0xff040404"   width="16" height="16" bkimage="png/btn_color.png"/>
+						<Button name="close_btn"  bordersize="1" bordercolor="0xff040404"   width="16" height="16" bkimage="png/btn_close.png"/>
+					</HorizontalLayout>
+				</HorizontalLayout>
+
+				<VerticalLayout name="edit_layout" width="254" height="26" padding="3,0,0,0">
+					<Label name="split_label" rhaa="5"  width="254" height="1" bkcolor="0xff040404"/>
+					<RichEdit name="input_edit" height="25" padding="0,2,0,0" />
+				</VerticalLayout>
+			</VerticalLayout>
+
+			<VerticalLayout name="这是隐藏后的tab" width="30" height="100" >
+				<Text name="shrink_label" width="20" height="100" text="未命名"  padding="8,20,0,0"  />
+			</VerticalLayout>
+		</TabLayout>
+	</VerticalLayout>
+</Window>
