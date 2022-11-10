@@ -24,5 +24,7 @@ If possible someday I will restart this project and add music/date reminders
   
  
  it,s running images:
-  
+  ![image]{(https://github.com/ugpu/note/blob/main/example/note_1.png)}
+  ![image]{(https://github.com/ugpu/note/blob/main/example/note_2.png)}
+  ![image]{(https://github.com/ugpu/note/blob/main/example/note_3.png)}
   
